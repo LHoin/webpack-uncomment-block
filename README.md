@@ -39,8 +39,8 @@ const uncommentBlockPlugin = new UncommentBlock({
     <meta charset='utf-8'>
     <title>Rights Management</title>
     
-    <link rel="stylesheet" href="//mobileqzz.beta.qunar.com/auth-ctrl/prd/assets/css/vendor-9c0ff273.css" />
     <link rel="stylesheet" href="/vendor.css" />
+    <link rel="stylesheet" href="/rights/index.css" />
     
   </head>
   <body>
