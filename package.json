@@ -1,10 +1,10 @@
 {
   "name": "webpack-uncomment-block",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Uncomment the code block",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,10 @@
   "homepage": "https://github.com/LHoin/webpack-uncomment-block#readme",
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "packing-glob": "^1.0.1"
+    "packing-glob": "^1.0.1",
+    "pug-strip-comments": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
   }
 }
